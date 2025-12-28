@@ -17,7 +17,7 @@ rl.question("Masukan jari-jari: ", (input) => {
   }
 
   const luasLingkaran = phi * r * r;
-  const kelilingLingkaran = 2 * phi * r;
+  const kelilingLingkaran = phi * 2 * r;
 
   console.log(`Luas Lingkaran: ${luasLingkaran}`)
   console.log(`Keliling Lingkaran: ${kelilingLingkaran}`)
